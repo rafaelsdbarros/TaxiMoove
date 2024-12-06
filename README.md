@@ -8,7 +8,7 @@ Protótipo figma: [https://marvelapp.com/prototype/ccgge05](https://www.figma.co
 
 Font: https://fonts.google.com/specimen/Pacifico
 
-Tecnologia
-Linguagem: Swift 5
-Versão mínima iOS: 16.0
-Arquitetura: MVVM
+### Tecnologia
+* Linguagem: Swift 5
+* Versão mínima iOS: 16.0
+* Arquitetura: MVVM
