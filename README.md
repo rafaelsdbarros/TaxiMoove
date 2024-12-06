@@ -12,3 +12,4 @@ Font: https://fonts.google.com/specimen/Pacifico
 * Linguagem: Swift 5
 * Versão mínima iOS: 16.0
 * Arquitetura: MVVM
+* ViewCode Mode
