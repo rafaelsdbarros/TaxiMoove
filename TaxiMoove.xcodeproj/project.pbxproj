@@ -9,13 +9,16 @@
 /* Begin PBXBuildFile section */
 		C313500F2D037FC200C5F545 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C313500E2D037FC200C5F545 /* AppDelegate.swift */; };
 		C31350112D037FC200C5F545 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C31350102D037FC200C5F545 /* SceneDelegate.swift */; };
-		C31350132D037FC200C5F545 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C31350122D037FC200C5F545 /* ViewController.swift */; };
-		C31350162D037FC200C5F545 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C31350142D037FC200C5F545 /* Main.storyboard */; };
 		C31350182D037FC400C5F545 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C31350172D037FC400C5F545 /* Assets.xcassets */; };
 		C313501B2D037FC400C5F545 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C31350192D037FC400C5F545 /* LaunchScreen.storyboard */; };
 		C31350262D037FC400C5F545 /* TaxiMooveTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C31350252D037FC400C5F545 /* TaxiMooveTests.swift */; };
 		C31350302D037FC400C5F545 /* TaxiMooveUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C313502F2D037FC400C5F545 /* TaxiMooveUITests.swift */; };
 		C31350322D037FC400C5F545 /* TaxiMooveUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C31350312D037FC400C5F545 /* TaxiMooveUITestsLaunchTests.swift */; };
+		C31350412D0382E100C5F545 /* Pacifico-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C313503E2D03810900C5F545 /* Pacifico-Regular.ttf */; };
+		C313504B2D03849000C5F545 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C31350492D03849000C5F545 /* MainViewController.swift */; };
+		C31350502D038EBA00C5F545 /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = C313504F2D038EBA00C5F545 /* UIColor.swift */; };
+		C31350572D039B4700C5F545 /* ViewCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = C31350562D039B4700C5F545 /* ViewCode.swift */; };
+		C31350592D039D1B00C5F545 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C31350582D039D1B00C5F545 /* MainView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +42,6 @@
 		C313500B2D037FC200C5F545 /* TaxiMoove.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TaxiMoove.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C313500E2D037FC200C5F545 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C31350102D037FC200C5F545 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		C31350122D037FC200C5F545 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		C31350152D037FC200C5F545 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C31350172D037FC400C5F545 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C313501A2D037FC400C5F545 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C313501C2D037FC400C5F545 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +50,11 @@
 		C313502B2D037FC400C5F545 /* TaxiMooveUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TaxiMooveUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C313502F2D037FC400C5F545 /* TaxiMooveUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaxiMooveUITests.swift; sourceTree = "<group>"; };
 		C31350312D037FC400C5F545 /* TaxiMooveUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaxiMooveUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C313503E2D03810900C5F545 /* Pacifico-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pacifico-Regular.ttf"; sourceTree = "<group>"; };
+		C31350492D03849000C5F545 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		C313504F2D038EBA00C5F545 /* UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
+		C31350562D039B4700C5F545 /* ViewCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewCode.swift; sourceTree = "<group>"; };
+		C31350582D039D1B00C5F545 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,10 +105,16 @@
 		C313500D2D037FC200C5F545 /* TaxiMoove */ = {
 			isa = PBXGroup;
 			children = (
+				C31350552D039B2B00C5F545 /* Protocols */,
+				C31350512D0391B800C5F545 /* Helpers */,
+				C313504D2D038E9B00C5F545 /* Extensions */,
+				C31350472D03846C00C5F545 /* ViewModel */,
+				C31350462D03846800C5F545 /* View */,
+				C31350452D03845D00C5F545 /* Application */,
+				C31350422D03845400C5F545 /* Model */,
+				C31350402D03811000C5F545 /* fonts */,
 				C313500E2D037FC200C5F545 /* AppDelegate.swift */,
 				C31350102D037FC200C5F545 /* SceneDelegate.swift */,
-				C31350122D037FC200C5F545 /* ViewController.swift */,
-				C31350142D037FC200C5F545 /* Main.storyboard */,
 				C31350172D037FC400C5F545 /* Assets.xcassets */,
 				C31350192D037FC400C5F545 /* LaunchScreen.storyboard */,
 				C313501C2D037FC400C5F545 /* Info.plist */,
@@ -125,6 +137,83 @@
 				C31350312D037FC400C5F545 /* TaxiMooveUITestsLaunchTests.swift */,
 			);
 			path = TaxiMooveUITests;
+			sourceTree = "<group>";
+		};
+		C31350402D03811000C5F545 /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				C313503E2D03810900C5F545 /* Pacifico-Regular.ttf */,
+			);
+			path = fonts;
+			sourceTree = "<group>";
+		};
+		C31350422D03845400C5F545 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C31350452D03845D00C5F545 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		C31350462D03846800C5F545 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C31350482D03847C00C5F545 /* MainViewController */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C31350472D03846C00C5F545 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		C31350482D03847C00C5F545 /* MainViewController */ = {
+			isa = PBXGroup;
+			children = (
+				C31350492D03849000C5F545 /* MainViewController.swift */,
+				C31350582D039D1B00C5F545 /* MainView.swift */,
+			);
+			path = MainViewController;
+			sourceTree = "<group>";
+		};
+		C313504D2D038E9B00C5F545 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				C313504E2D038EAE00C5F545 /* UIKit */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		C313504E2D038EAE00C5F545 /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				C313504F2D038EBA00C5F545 /* UIColor.swift */,
+			);
+			path = UIKit;
+			sourceTree = "<group>";
+		};
+		C31350512D0391B800C5F545 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		C31350552D039B2B00C5F545 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				C31350562D039B4700C5F545 /* ViewCode.swift */,
+			);
+			path = Protocols;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,9 +320,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C31350412D0382E100C5F545 /* Pacifico-Regular.ttf in Resources */,
 				C313501B2D037FC400C5F545 /* LaunchScreen.storyboard in Resources */,
 				C31350182D037FC400C5F545 /* Assets.xcassets in Resources */,
-				C31350162D037FC200C5F545 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,9 +347,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C31350132D037FC200C5F545 /* ViewController.swift in Sources */,
+				C313504B2D03849000C5F545 /* MainViewController.swift in Sources */,
+				C31350592D039D1B00C5F545 /* MainView.swift in Sources */,
+				C31350502D038EBA00C5F545 /* UIColor.swift in Sources */,
 				C313500F2D037FC200C5F545 /* AppDelegate.swift in Sources */,
 				C31350112D037FC200C5F545 /* SceneDelegate.swift in Sources */,
+				C31350572D039B4700C5F545 /* ViewCode.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,14 +389,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		C31350142D037FC200C5F545 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C31350152D037FC200C5F545 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		C31350192D037FC400C5F545 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -442,7 +526,6 @@
 				INFOPLIST_FILE = TaxiMoove/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -470,7 +553,6 @@
 				INFOPLIST_FILE = TaxiMoove/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
